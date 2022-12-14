@@ -9,7 +9,7 @@
 	],
 	// コンテナ生成時にコマンド実行
 	"postCreateCommand": [
-		"git config --global user.name {syunmame}",
-	    "git config --global user.email {sunqiantian@gmail.com}"
+		"git config --global user.name "syunmame"",
+	    "git config --global user.email sunqiantian@gmail.com"
 	],
 }
