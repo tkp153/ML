@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rgb_233_png.rf.8baaa118a0573ef86a9e411a39ff8542.jpg</filename>
+	<path>rgb_233_png.rf.8baaa118a0573ef86a9e411a39ff8542.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>top_folk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>159</xmin>
+			<xmax>224</xmax>
+			<ymin>396</ymin>
+			<ymax>539</ymax>
+		</bndbox>
+	</object>
+</annotation>
