@@ -9,7 +9,7 @@ https://qiita.com/schiyoda/items/44cdcf0574602f1e776b
 
 2.cd {dockerfile_directly}
 
-2.docker build
+2.docker build:
 docker build ./ -t ml
 
 3.docker run --name ml-container1 -it ml /bin/bash
