@@ -48,7 +48,7 @@ RUN apt-get install -y vim less gcc
 
 # 以下 pip
 # VSCodeで自動フォーマットやリントの動作をさせるため事前にインストール
-RUN apt install python3-pip
+RUN apt install -y python3-pip
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install flake8 autopep8
