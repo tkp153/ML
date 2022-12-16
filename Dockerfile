@@ -1,11 +1,27 @@
 FROM python:3
 
 
+
 # ユーザ'vscode'を作成する
 # 他のリポジトリではUSER_UIDがベースのイメージですでに使われている場合は別の値を使っています。
 ARG USERNAME=vscode
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
+ARG nvidia/cuda:11.6.0-cudnn8-devel-ubuntu20.04
+
+ARG CUDA_VERSION=cuda-11.6
+ARG PYTHON_VERSION=python3
+ARG TZ=Asia/Tokyo
+
+ENV DEBIAN_FRONTED=noninteractive
+ENV TZ ${TZ}
+
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV NVIDIA_DRIVERS_CAPABILITIES=all
+
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+WORKDIR /root
 
 # ユーザの作成と`sudo`の利用設定
 # 言語・場所設定
