@@ -32,9 +32,12 @@ RUN apt-get install -y vim less gcc
 
 # 以下 pip
 # VSCodeで自動フォーマットやリントの動作をさせるため事前にインストール
+RUN sudo apt install python3-pip
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install flake8 autopep8
+RUN pip install ipykernel
+RUN pip install tqdm
 RUN git config --global user.name "syunmame"
 RUN git config --global user.email sunqiantian@gmail.com
 

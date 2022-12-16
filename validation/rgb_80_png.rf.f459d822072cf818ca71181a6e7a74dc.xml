@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rgb_80_png.rf.f459d822072cf818ca71181a6e7a74dc.jpg</filename>
+	<path>rgb_80_png.rf.f459d822072cf818ca71181a6e7a74dc.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>handle_folk</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>386</xmin>
+			<xmax>447</xmax>
+			<ymin>212</ymin>
+			<ymax>285</ymax>
+		</bndbox>
+	</object>
+</annotation>
