@@ -35,6 +35,8 @@ RUN apt-get install -y vim less gcc
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN pip install flake8 autopep8
+RUN git config --global user.name "syunmame"
+RUN git config --global user.email sunqiantian@gmail.com
 
 # サンプルソースで利用しているパッケージとこの後利用しそうなものを追加
 RUN pip install python-dotenv fastapi uvicorn
