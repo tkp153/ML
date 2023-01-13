@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rgb_145_png.rf.8e6bc46f076845226e48f15f7e7e42dd.jpg</filename>
+	<path>rgb_145_png.rf.8e6bc46f076845226e48f15f7e7e42dd.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>top_knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>209</xmin>
+			<xmax>229</xmax>
+			<ymin>367</ymin>
+			<ymax>521</ymax>
+		</bndbox>
+	</object>
+</annotation>

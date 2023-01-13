@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rgb_92_png.rf.498ae96e52dbadc316c57543c2165744.jpg</filename>
+	<path>rgb_92_png.rf.498ae96e52dbadc316c57543c2165744.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>handle_knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>127</xmin>
+			<xmax>164</xmax>
+			<ymin>432</ymin>
+			<ymax>559</ymax>
+		</bndbox>
+	</object>
+</annotation>

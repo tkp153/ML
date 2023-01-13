@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>rgb_17_png.rf.b8419f2ac81873a837c7065c8a84a9c8.jpg</filename>
+	<path>rgb_17_png.rf.b8419f2ac81873a837c7065c8a84a9c8.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>top_spoon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>205</xmin>
+			<xmax>272</xmax>
+			<ymin>308</ymin>
+			<ymax>397</ymax>
+		</bndbox>
+	</object>
+</annotation>
